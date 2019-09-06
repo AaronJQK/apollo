@@ -15,8 +15,12 @@ dev_meta=http://fill-in-dev-meta-server:8080
 fat_meta=http://fill-in-fat-meta-server:8080
 uat_meta=http://fill-in-uat-meta-server:8080
 pro_meta=http://fill-in-pro-meta-server:8080
+beta_meta=http://fill-in-beta-meta-server:8080
+test_meta=http://fill-in-test-meta-server:8080
+pre_meta=http://fill-in-pre-meta-server:8080
+prod_meta=http://fill-in-prod-meta-server:8080
 
-META_SERVERS_OPTS="-Ddev_meta=$dev_meta -Dfat_meta=$fat_meta -Duat_meta=$uat_meta -Dpro_meta=$pro_meta"
+META_SERVERS_OPTS="-Ddev_meta=$dev_meta -Dfat_meta=$fat_meta -Duat_meta=$uat_meta -Dpro_meta=$pro_meta -Dbeta_meta=$beta_meta -Dtest_meta=$test_meta -Dpre_meta=$pre_meta -Dprod_meta=$prod_meta"
 
 # =============== Please do not modify the following content =============== #
 # go to script directory
